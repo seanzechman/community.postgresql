@@ -157,7 +157,7 @@ EXAMPLES = r'''
     db: acme
     table: products
     columns: id,name
-    name: test_idx
+    idxname: test_idx
 
 - name: Create btree index test_idx concurrently with tablespace called ssd and storage parameter
   community.postgresql.postgresql_idx:
